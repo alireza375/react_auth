@@ -33,9 +33,9 @@ const Register = () => {
                     <form onSubmit={handleRegister}>
                         <fieldset className="fieldset">
                         <label className="label">Name</label>
-                        <input type="text" className="input" placeholder="Enter Name" name="name" />
+                        <input type="text" className="input" placeholder="Enter Name" name="name" required />
                         <label className="label">Email</label>
-                        <input type="email" className="input" placeholder="Enter Email" name="email" />
+                        <input type="email" className="input" placeholder="Enter Email" name="email" required />
                         <label className="label">Password</label>
                         <div className="relative">
                             <input 
