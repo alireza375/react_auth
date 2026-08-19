@@ -1,9 +1,6 @@
-import { useContext } from "react";
-import { AuthContext } from "../../providers/AuthProvider";
+
 
 const Banner = () => {
-    const authInfo = useContext(AuthContext);
-    console.log(authInfo);
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
@@ -19,7 +16,7 @@ const Banner = () => {
                     Its your future. Come find it. Manage all your job application from start to finish.
                 </p>
                 <button className="btn btn-primary">Get Started</button>
-                <p>Name: {authInfo.name}</p>
+                <p>Name: </p>
                 </div>
             </div>
         </div>
